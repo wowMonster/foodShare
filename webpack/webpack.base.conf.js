@@ -3,8 +3,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 // const {
 //     CleanWebpackPlugin
 // } = require("clean-webpack-plugin");
-//相对路径转绝对路径
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");//css单独文件
+// path.resolve是node的方法 相对路径转绝对路径
 const resolvePath = _path => path.resolve(__dirname, _path);
 
 const baseConfig = {
